@@ -1,5 +1,7 @@
-a=input("Enter a password:")
-if a=="Manoj":
-  print("your password matched")
+num=float(input("Enter a number:"))
+if num > 0:
+    print("positive number")
+elif num == 0:
+    print("zero")
 else:
-  print("Your password does not matched")
+    print("negative number")
